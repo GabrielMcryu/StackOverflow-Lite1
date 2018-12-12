@@ -1,0 +1,162 @@
+body{
+	/*background-image: url(../images/bg3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;*/
+}
+
+.signup_form{
+	text-align: center;
+	margin: 100px 400px;
+}
+#registration{
+	width: 100%;
+	background-color:white ;
+	opacity: ;
+	padding: 20px 0px;
+}
+#button{
+	width: 250px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+#ph{
+	outline: 0px;
+	width: 75px;
+	padding: 10px;
+	border-radius: 5px;
+}
+#phone{
+	width: 200px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: 0px;
+}
+#but{
+	color: ;
+	font-size: 18px;
+}
+#butt{
+	background-color: black;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size:18px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #1111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+body {font-family: Arial, Helvetica, sans-serif;background-color: #f2f2f2}
+* {box-sizing: border-box;}
+
+input[type=text] {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=number] {
+	width: 70%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table{ 
+	
+	/*border-collapse: collapse;*/
+	width: 100%;
+}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: black;
+  color: white;
+}
